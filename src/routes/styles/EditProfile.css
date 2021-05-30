@@ -1,0 +1,24 @@
+.formInput{
+    width: 45% !important;
+}
+.design-container
+{
+    height: 200px;
+    background-color: var(--theme1);
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    width:100%
+}
+.design-holder
+{
+    position: relative;
+}
+.tags
+{
+    background-color: var(--theme1);
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 30px;
+}

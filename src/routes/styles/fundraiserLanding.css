@@ -1,0 +1,72 @@
+.fundraiserBanner{
+    margin: 10px auto !important;
+    margin-top: 70px !important;
+    display: block;
+    max-width: 600px !important; 
+}
+
+.fundraiser-details h1{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+
+}
+
+.fundraiser-details h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+    opacity: 0.6;
+}
+
+.fundraiser-details p{
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    line-height: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.app-brand-landing{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.tags{
+    font-size: 15px !important;
+}
+
+.goal{
+    opacity: 0.5;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    text-align: right;
+}
+
+.card-item-banner{
+    max-height: 300px !important;
+}
+
+.fundraiser-doc-render{
+    max-height: 200px !important;
+}
+
+.doc-render{
+    max-width: fit-content;
+    margin-bottom: 150px;
+}
+
+@media all and (max-width: 480px){
+    .fundraiserBanner{
+        margin-top: 85px !important;
+        max-width: 300px !important;
+    }
+
+    .fundraiser-details p{
+        line-height: 25px;
+        font-size: 14px;
+        margin-bottom: 80px;
+    }
+}

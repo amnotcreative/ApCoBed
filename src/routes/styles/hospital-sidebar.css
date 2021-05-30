@@ -1,0 +1,299 @@
+.hospital-sidebar-menu{
+    list-style: none;
+    padding : 0;
+    width: 100%;
+    margin-left: 0;
+}
+
+.hospital-sidebar-menu a{
+  padding:5px 20px;
+} 
+
+.hospital-logout-btn
+{
+  background-color: transparent !important;
+  width: 100%;
+  font-weight: bold !important;
+  font-size: 14px !important;
+}
+.sidebar-down
+{
+  margin-top: auto !important;
+  display: block;
+  text-align:center;
+  max-width: 100px;
+  overflow-wrap: break-word !important;
+  word-wrap: break-word!important;
+}
+.sidebar-down h5
+{
+  font-weight: bold !important;
+  font-size: 25px !important;
+  text-transform:uppercase !important;
+}
+.hospital-sidebar{
+    background-color: white;
+    height: 100vh;
+    position: fixed;
+    left:0;
+    padding: 20px;
+    box-shadow: 0 8px 16px 10px #F1F7FF;
+    display: flex;
+    flex-direction: column;
+}
+
+.hospital-sidebar-container {
+    position: relative;
+}
+
+.hospital-sidebar-menu a li span {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    margin:20px auto;
+    color: #0079ff;
+    height:40px;
+    width:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px  #d9e8fc, 0 1px 3px  #d9e8fc;
+    background-color: #F1F7FF;
+    border-radius: 10px;
+    transition: all 0.3s !important;
+} 
+
+.hospital-sidebar-menu .active span
+{
+    color:#fff;
+    background-color: var(--theme1);
+    box-shadow: 0 4px 6px  var(--theme1), 0 1px 3px  var(--theme1);
+}
+.hospital-sidebar-menu a li:hover span
+{
+  color:#fff !important;
+  background-color: var(--theme1);
+  box-shadow: 0 4px 6px  var(--theme1), 0 1px 3px  var(--theme1);
+}
+.hospital-sidebar-menu a{
+    margin:10px 0;
+    color:var(--theme1);
+}
+
+.hospital-sidebar-menu a li h4{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.hospital-app-brand h3{
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  color:var(--theme1)
+}
+
+.hospital-app-brand h5{
+  font-size: 20px;
+  opacity: 0.6;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hospital-card-theme {
+  padding: 20px 15px;
+}
+ 
+.hospital-card-theme-container
+{
+  min-height: 200px;
+  width: 100%;
+  box-shadow: 0 0px 10px 0px rgb(199, 199, 199);
+  transition: 0.5s;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../img/illus.svg');
+  background-position: top left;
+  background-size: 310%;
+}
+
+.hospital-card-theme-container h6{
+  text-align: center;
+ font-size: 18px;
+ font-weight: bold;
+}
+
+.hospital-card-theme-container h2{
+  text-align: center;
+ font-size: 70px;
+ font-weight: bold;
+ opacity: 0.7;
+}
+
+  
+
+.alert 
+{
+    text-align: left;
+    background-color: #fff !important;
+    border-radius: 20px;
+    box-shadow: 0 0px 10px 0px rgb(199 199 199);
+    background-image: url('../../img/illus1.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    font-weight:bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .alert p
+ {
+   line-height: 15px;
+ }
+ .alert-details
+ {
+   margin-bottom: 25px;
+ }
+.hospital-dashboard
+{
+    background-color: #F1F7FF !important;
+    min-height: 100vh;
+}
+.hospital-main-dashboard
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height:100vh;
+}
+.alert-container
+{
+  margin-left: 70px;
+}
+.alert-container h3
+{
+  opacity: 0.6;
+  font-size: 36px;
+  margin:20px 0px;
+  font-weight: bold;
+}
+@media all and (max-width: 480px) { 
+  .alert-container
+  {
+    margin-left: 0px !important;
+  }
+  .hospital-sidebar
+  {
+    padding: 0px;
+    right:0;
+    flex-direction: row !important;
+    top:auto !important;
+    height:auto !important;
+    bottom: 0;
+    background:#fff;
+    z-index: 9999;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0 6px 30px -10px #000;
+  }
+  .sidebar-down h5
+  {
+    display: none;
+  }
+  .hospital-sidebar-menu
+  {
+    display: flex;
+    margin:0px !important;
+  }
+  .hospital-sidebar-menu a
+  {
+    padding: 0px;
+    flex: 1 1 0;
+    width: 0;
+    margin:0px 0px;
+    margin-top: 10px;
+  }
+  .hospital-app-brand
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hospital-app-brand h3
+  {
+    display: none;
+  }
+  .hospital-sidebar-menu a li span 
+  { 
+    background-color: transparent;
+    padding: 0px !important;
+    color:#0079ff;
+    box-shadow: none !important;
+    margin:5px auto !important
+  }
+  .hospital-sidebar-menu .active span
+  {
+    border-radius: 100%;
+  }
+  .hospital-logout-btn
+  {
+    height:100% !important;
+    display: flex;
+    height:100%
+  }
+  .sidebar-down
+  {
+    height:80px;
+  }
+  .hospital-logout-btn
+  { 
+    display: none !important;
+  }
+  .hospital-card-theme
+  {
+    padding: 0px;
+  }
+  .hospital-main-dashboard
+  {
+    min-height:auto !important
+  }
+  .alert-container h3
+  {
+    font-size: 50px;
+  }
+  .hospital-dashboard
+  {
+    margin-bottom: 80px;
+  }
+  .hospital-card-theme-container h2
+  {
+    font-size: 40px;
+  }
+  .hospital-card-theme-container
+  {
+    padding: 0px;
+    min-height:150px
+  }
+  .sidebar-form
+  {
+    position: absolute;
+    top:auto;
+    bottom: 0;
+    left:0 !important;
+    right: 0 !important;
+    width: 100%;
+  }
+  
+  .sidebar-menu
+  {
+    height:auto;
+    width:100vw !important
+  }
+  
+}

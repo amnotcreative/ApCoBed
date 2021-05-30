@@ -1,0 +1,221 @@
+.sidebar
+{
+    position: absolute;
+    left:-8px !important;
+    top:0;
+    width: fit-content;
+    height:100vh;
+    z-index: 9999;
+    padding: 0px !important;
+    margin-left: 20px;
+}
+.app-brand
+{
+    font-size: 50px !important;
+    font-weight: bold !important;
+    text-align:center;
+    background-color: #fff;
+    width:100% !important
+}
+.sidebar .container-fluid
+{
+    padding:0px !important;
+}
+.suggestion-container , .map-form-container
+{
+    height:500px !important;
+    overflow-y: scroll;
+}
+.address-input
+{
+    padding: 10px 5px;
+    border: 0px;
+    width: 100%;
+    outline:0px !important;
+    border-bottom: 2px solid var(--theme1) !important;
+    background-color: #ece8e8 !important;
+}
+.suggestion-item-container
+{
+    border-bottom: 1px solid lightgrey;
+    padding: 20px 0px;
+}
+.suggestion-item-container .icon-container
+{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.suggestion-item-container .icon-container span
+{
+    background-color: rgb(66, 66, 66);
+    font-size: 10px;
+    color: #fff;
+    height:30px !important;
+    width:30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.suggestion-item-desc span
+{
+    display: block;
+    opacity: 0.7;
+    font-size: 12px !important;
+}
+.suggestion-item-desc h4
+{
+    font-size: 16px !important;
+}
+.location-header span
+{
+    font-size: 14px;
+    opacity: 0.5;
+}
+.sidebar-menu
+{
+    height:100vh;
+    left:0;
+}
+.user-sidebar-menu{
+    list-style: none;
+    padding : 0;
+    width: 100%;
+    margin-left: 0;
+}
+
+.user-sidebar-menu a{
+  padding:5px 20px;
+}
+
+.user-sidebar-menu a li span {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    margin:10px auto;
+    color: #0079ff;
+    height:40px;
+    width:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px  #d9e8fc, 0 1px 3px  #d9e8fc;
+    background-color: #F1F7FF;
+    border-radius: 10px;
+    transition: all 0.3s !important;
+} 
+
+.user-sidebar-menu .active span
+{
+    color:#fff;
+    background-color: var(--theme1);
+    box-shadow: 0 4px 6px  var(--theme1), 0 1px 3px  var(--theme1);
+}
+.user-sidebar-menu a li:hover span
+{
+  color:#fff !important;
+  background-color: var(--theme1);
+  box-shadow: 0 4px 6px  var(--theme1), 0 1px 3px  var(--theme1);
+}
+.user-sidebar-menu a{
+    margin:10px 0;
+    color:var(--theme1);
+}
+
+.user-sidebar-menu a li h4 {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sidebar-form
+{
+    position: fixed;
+    left:85px;
+    width: 400px !important;
+}
+
+@media all and (max-width: 480px) { 
+    .sidebar-form
+    {
+        position: relative;
+        left:auto !important;
+        width: 100% !important;
+    }
+    .sidebar
+    {
+        position: absolute !important;
+        margin-left: 0;
+        padding-right: calc(var(--bs-gutter-x)/2) !important;
+        padding-left: calc(var(--bs-gutter-x)/2) !important;
+        bottom: 0 !important;
+        top: auto !important;
+        height: auto;
+        left:0 !important
+    }
+    .suggestion-container
+      {
+        height:auto !important
+      }
+      .nf h6{
+        font-size: 12px;
+        min-height: 50px;
+      }
+      .location-header
+      {
+          text-align: center;
+      }
+      .m-full
+      {
+          height:90vh !important;
+          z-index: 99999 !important
+      }
+      .m-check
+      {
+        display: flex;
+      }
+      .map-form-container
+      {
+          z-index: 99999 !important
+      }
+      .user-sidebar-menu
+      {
+        display: flex;
+        margin:0px !important;
+      }
+      .user-sidebar-menu a
+      {
+        padding: 0px;
+        flex: 1 1 0;
+        width: 0;
+        margin:0px 0px;
+        margin-top: 10px;
+      }
+      .user-sidebar-menu a li span 
+      { 
+        background-color: transparent;
+        padding: 0px !important;
+        color:#0079ff;
+        box-shadow: none !important;
+        margin:5px auto !important
+      }
+      .user-sidebar-menu .active span
+      {
+        border-radius: 100%;
+      }
+      .m-no-show
+      {
+          display: none;
+      }
+      .modal-content
+      {
+          margin-bottom: 100px !important;
+      }
+      .form-image
+      {
+          height:auto !important
+      }
+}

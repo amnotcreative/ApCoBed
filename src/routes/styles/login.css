@@ -1,0 +1,98 @@
+
+.login-page-illustration
+{
+    max-width: 350px !important;
+    margin:10px auto;
+    display: block;
+}
+.login-page-illustration-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background-color: #D9F5FF;
+    flex-direction: column;
+}
+.login-container h1
+{
+    font-size: 90px !important;
+    font-weight: bold !important;
+    text-align:center;
+    margin:20px !important;
+}
+.login-form 
+{
+    width: 50%;
+    margin: 20px auto;
+}
+.login-form input
+{
+    border: 0px !important;
+    border-bottom: 2px dashed var(--theme1) !important;
+    margin-bottom: 10px;
+}
+
+.login-form label
+{
+    font-size: 20px;
+    margin:10px 0px;
+    font-weight: bold;
+}
+.page-illustration
+{
+    background-color: #D9F5FF;
+    width:150px;
+    position: absolute;
+    right:0;
+    top:0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 30px;
+}
+.error
+{
+    background-color: rgb(190, 16, 16);
+    padding: 20px;
+    margin-top: 20px;
+    color:#fff
+}
+.TextInput_container__254xl .textinput-input
+{
+    border: 3px solid red !important;
+}
+.PhoneNumberInput_dialcodeDropdown__1SlWR
+{
+    background-color: blue !important;
+}
+@media all and (max-width: 480px) { 
+    .page-illustration
+    {
+       position: inherit !important;
+        margin-left: auto;
+        margin-right: -10px;
+        background-color: transparent ;
+        width:100px;
+        top:auto !important
+    }
+    .login-page-illustration-container
+    {
+        height:auto
+    }
+    .login-page-illustration
+    {
+        width: 200px;
+    }
+    .login-form
+    {
+        width:80%
+    }
+    .login-container h1
+    {
+        font-size: 60px !important;
+        margin:0px auto !important;
+    }
+    .login-container
+    {
+        height:100vh
+    }
+}   

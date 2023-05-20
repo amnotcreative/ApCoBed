@@ -104,7 +104,7 @@
 
 1. Clone the Repo
    
-   `git clone https://github.com/aritrakrbasu/apcobed`
+   `git clone https://github.com/amnotcreative/ApCoBed.git`
    
 2. Install Dependencies
 
